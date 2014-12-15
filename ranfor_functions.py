@@ -60,5 +60,5 @@ def make_pairwise(X1, Y1, X2, Y2):
 
 
 def logit(X):
-    X = log(X/(1-X))
+    X = np.log(X/(1-X))
     return X
